@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dniLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DNI: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/nombreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/apellidoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/direccionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/telefonoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/ciudadLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/paisLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country: "
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/editProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile" />
+</LinearLayout>
